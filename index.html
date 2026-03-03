@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pauvisión 2026 - Finalistas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="background-overlay"></div>
+
+    <main class="container">
+        <header class="hero">
+            <h1 class="glitch" data-text="PAUVISIÓN">PAUVISIÓN</h1>
+            <p class="subtitle">EDICIÓN IA 2026</p>
+        </header>
+
+        <section id="intro-section" class="intro reveal-anim">
+            <div class="glass-card">
+                <h2>¿Listos para los resultados?</h2>
+                <p>Ocho artistas han llegado a la gran final. Haz clic abajo para descubrir quién ha conquistado los
+                    algoritmos.</p>
+                <button id="start-reveal" class="btn-primary">REVELAR FINALISTAS</button>
+            </div>
+        </section>
+
+        <section id="results-section" class="results hidden">
+            <div id="scoreboard" class="scoreboard">
+                <!-- Finalists will be injected here -->
+            </div>
+            <div id="winner-announcement" class="winner-card hidden glass-card">
+                <p>PAUPROGRAMACIÓN COMPLETADA</p>
+                <h2 id="winner-name"></h2>
+                <button id="reset-btn" class="btn-secondary">REPETIR SECUENCIA</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
